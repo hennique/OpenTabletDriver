@@ -1,0 +1,42 @@
+{
+  "Name": "Tomate MTM-1106",
+  "Specifications": {
+    "Digitizer": {
+      "Width": 250,
+      "Height": 150,
+      "MaxX": 4095,
+      "MaxY": 4095
+    },
+    "Pen": {
+      "MaxPressure": 8191,
+      "ButtonCount": 2
+    },
+    "AuxiliaryButtons": {
+      "ButtonCount": 12
+    }
+  },
+  "DigitizerIdentifiers": [
+    {
+      "VendorID": 2290,
+      "ProductID": 26641,
+      "InputReportLength": 64,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Tomate.TomateReportParser"
+    },
+    {
+      "VendorID": 2290,
+      "ProductID": 26641,
+      "InputReportLength": 8,
+      "OutputReportLength": 9,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Tomate.TomateReportParser",
+      "FeatureInitReport": [
+        "CAQdAQAABoA=",
+        "CAYBAAAAAAA=",
+        "CAEA//AA//A=",
+        "CAcAAAD///8=",
+        "CAEA//AA//A=",
+        "CAYBAAAAAAA=",
+        "CAMA//AA//A="
+       ]
+    }
+  ]
+}
