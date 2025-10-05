@@ -1,1 +1,1 @@
-This fork's branch only purpose it to be the tomate mtm 1106 support
+This fork's branch only purpose is to be my personal tomate mtm 1106 support
